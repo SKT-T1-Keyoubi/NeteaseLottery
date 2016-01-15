@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40884D781C488C5F00BE84E8 /* CPProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D771C488C5F00BE84E8 /* CPProfileViewController.m */; };
+		40884D7B1C488C9800BE84E8 /* CPAwardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D7A1C488C9800BE84E8 /* CPAwardController.m */; };
+		40884D7E1C488CB300BE84E8 /* CPDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D7D1C488CB300BE84E8 /* CPDiscoveryController.m */; };
+		40884D811C488CD400BE84E8 /* CPHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D801C488CD400BE84E8 /* CPHallController.m */; };
+		40884D841C488CFD00BE84E8 /* CPBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D831C488CFD00BE84E8 /* CPBuyController.m */; };
+		40884D881C48BEDD00BE84E8 /* CPFighterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D871C48BEDD00BE84E8 /* CPFighterController.m */; };
+		40884D8B1C48DAF600BE84E8 /* CPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D8A1C48DAF600BE84E8 /* CPNavigationController.m */; };
+		40884D951C49119700BE84E8 /* UINavigationItem+showIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D941C49119700BE84E8 /* UINavigationItem+showIndex.m */; };
+		40884D9A1C491C2E00BE84E8 /* CPSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D991C491C2E00BE84E8 /* CPSettingController.m */; };
+		40884D9E1C4921CA00BE84E8 /* CPSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 40884D9D1C4921CA00BE84E8 /* CPSettingItem.m */; };
 		409D94301C47C6E900112FBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 409D942F1C47C6E900112FBE /* ViewController.m */; };
 		409D94331C47C6E900112FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409D94311C47C6E900112FBE /* Main.storyboard */; };
 		409D94351C47C6E900112FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409D94341C47C6E900112FBE /* Assets.xcassets */; };
@@ -17,6 +27,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40884D761C488C5F00BE84E8 /* CPProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPProfileViewController.h; sourceTree = "<group>"; };
+		40884D771C488C5F00BE84E8 /* CPProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPProfileViewController.m; sourceTree = "<group>"; };
+		40884D791C488C9800BE84E8 /* CPAwardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAwardController.h; sourceTree = "<group>"; };
+		40884D7A1C488C9800BE84E8 /* CPAwardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAwardController.m; sourceTree = "<group>"; };
+		40884D7C1C488CB300BE84E8 /* CPDiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDiscoveryController.h; sourceTree = "<group>"; };
+		40884D7D1C488CB300BE84E8 /* CPDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDiscoveryController.m; sourceTree = "<group>"; };
+		40884D7F1C488CD400BE84E8 /* CPHallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPHallController.h; sourceTree = "<group>"; };
+		40884D801C488CD400BE84E8 /* CPHallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPHallController.m; sourceTree = "<group>"; };
+		40884D821C488CFD00BE84E8 /* CPBuyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBuyController.h; sourceTree = "<group>"; };
+		40884D831C488CFD00BE84E8 /* CPBuyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBuyController.m; sourceTree = "<group>"; };
+		40884D861C48BEDD00BE84E8 /* CPFighterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPFighterController.h; sourceTree = "<group>"; };
+		40884D871C48BEDD00BE84E8 /* CPFighterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPFighterController.m; sourceTree = "<group>"; };
+		40884D891C48DAF600BE84E8 /* CPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPNavigationController.h; sourceTree = "<group>"; };
+		40884D8A1C48DAF600BE84E8 /* CPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPNavigationController.m; sourceTree = "<group>"; };
+		40884D931C49119700BE84E8 /* UINavigationItem+showIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+showIndex.h"; sourceTree = "<group>"; };
+		40884D941C49119700BE84E8 /* UINavigationItem+showIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+showIndex.m"; sourceTree = "<group>"; };
+		40884D981C491C2E00BE84E8 /* CPSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingController.h; sourceTree = "<group>"; };
+		40884D991C491C2E00BE84E8 /* CPSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingController.m; sourceTree = "<group>"; };
+		40884D9C1C4921CA00BE84E8 /* CPSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingItem.h; sourceTree = "<group>"; };
+		40884D9D1C4921CA00BE84E8 /* CPSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingItem.m; sourceTree = "<group>"; };
 		409D94251C47C6E900112FBE /* 网易彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409D942E1C47C6E900112FBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		409D942F1C47C6E900112FBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -43,6 +73,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40884D711C48880700BE84E8 /* AwardInfo */ = {
+			isa = PBXGroup;
+			children = (
+				40884D791C488C9800BE84E8 /* CPAwardController.h */,
+				40884D7A1C488C9800BE84E8 /* CPAwardController.m */,
+			);
+			path = AwardInfo;
+			sourceTree = "<group>";
+		};
+		40884D721C48880700BE84E8 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				40884D7C1C488CB300BE84E8 /* CPDiscoveryController.h */,
+				40884D7D1C488CB300BE84E8 /* CPDiscoveryController.m */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		40884D731C48880700BE84E8 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				40884D7F1C488CD400BE84E8 /* CPHallController.h */,
+				40884D801C488CD400BE84E8 /* CPHallController.m */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		40884D741C48880700BE84E8 /* HappyBuy */ = {
+			isa = PBXGroup;
+			children = (
+				40884D821C488CFD00BE84E8 /* CPBuyController.h */,
+				40884D831C488CFD00BE84E8 /* CPBuyController.m */,
+			);
+			path = HappyBuy;
+			sourceTree = "<group>";
+		};
+		40884D751C48880700BE84E8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				40884D761C488C5F00BE84E8 /* CPProfileViewController.h */,
+				40884D771C488C5F00BE84E8 /* CPProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		40884D851C48BECD00BE84E8 /* Fight */ = {
+			isa = PBXGroup;
+			children = (
+				40884D861C48BEDD00BE84E8 /* CPFighterController.h */,
+				40884D871C48BEDD00BE84E8 /* CPFighterController.m */,
+			);
+			path = Fight;
+			sourceTree = "<group>";
+		};
+		40884D8C1C490F6400BE84E8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				40884D931C49119700BE84E8 /* UINavigationItem+showIndex.h */,
+				40884D941C49119700BE84E8 /* UINavigationItem+showIndex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		40884D961C491C0F00BE84E8 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				40884D9B1C4921A900BE84E8 /* Model */,
+				40884D971C491C0F00BE84E8 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		40884D971C491C0F00BE84E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40884D981C491C2E00BE84E8 /* CPSettingController.h */,
+				40884D991C491C2E00BE84E8 /* CPSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40884D9B1C4921A900BE84E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40884D9C1C4921CA00BE84E8 /* CPSettingItem.h */,
+				40884D9D1C4921CA00BE84E8 /* CPSettingItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		409D941C1C47C6E800112FBE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +205,13 @@
 		409D943F1C47CF5900112FBE /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				40884D961C491C0F00BE84E8 /* Setting */,
+				40884D851C48BECD00BE84E8 /* Fight */,
+				40884D711C48880700BE84E8 /* AwardInfo */,
+				40884D721C48880700BE84E8 /* Discovery */,
+				40884D731C48880700BE84E8 /* Hall */,
+				40884D741C48880700BE84E8 /* HappyBuy */,
+				40884D751C48880700BE84E8 /* Profile */,
 				409D94401C47CF5900112FBE /* Main */,
 				409D94421C47CF5900112FBE /* Other */,
 			);
@@ -103,6 +230,8 @@
 		409D94411C47CF5900112FBE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				40884D891C48DAF600BE84E8 /* CPNavigationController.h */,
+				40884D8A1C48DAF600BE84E8 /* CPNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +239,7 @@
 		409D94421C47CF5900112FBE /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				40884D8C1C490F6400BE84E8 /* Category */,
 				409D94431C47CF5900112FBE /* AppDelegate.h */,
 				409D94441C47CF5900112FBE /* AppDelegate.m */,
 				409D94451C47CF5900112FBE /* main.m */,
@@ -199,9 +329,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40884D9A1C491C2E00BE84E8 /* CPSettingController.m in Sources */,
+				40884D951C49119700BE84E8 /* UINavigationItem+showIndex.m in Sources */,
+				40884D781C488C5F00BE84E8 /* CPProfileViewController.m in Sources */,
 				409D944D1C47E6F700112FBE /* CPTabBar.m in Sources */,
 				409D94471C47CF5900112FBE /* main.m in Sources */,
 				409D94461C47CF5900112FBE /* AppDelegate.m in Sources */,
+				40884D7B1C488C9800BE84E8 /* CPAwardController.m in Sources */,
+				40884D811C488CD400BE84E8 /* CPHallController.m in Sources */,
+				40884D841C488CFD00BE84E8 /* CPBuyController.m in Sources */,
+				40884D7E1C488CB300BE84E8 /* CPDiscoveryController.m in Sources */,
+				40884D9E1C4921CA00BE84E8 /* CPSettingItem.m in Sources */,
+				40884D8B1C48DAF600BE84E8 /* CPNavigationController.m in Sources */,
+				40884D881C48BEDD00BE84E8 /* CPFighterController.m in Sources */,
 				409D94301C47C6E900112FBE /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +497,7 @@
 				409D943E1C47C6E900112FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

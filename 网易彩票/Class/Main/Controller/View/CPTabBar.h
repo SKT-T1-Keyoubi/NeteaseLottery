@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class CPTabBar;
+@protocol CPTabBarDelegate <NSObject>
+
+@optional
+-(void)tabBar:(CPTabBar *)tabBar didSelectButtonFrom:(NSUInteger)from to:(NSUInteger) to;
+
+@end
+
 @interface CPTabBar : UIView
 
+-(void) addTabButton:(NSString *)icon selectedIcon:(NSString *)selIcon;
+@property (nonatomic,weak) id<CPTabBarDelegate> delegate;
 
 @end
