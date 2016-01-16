@@ -22,7 +22,7 @@
                         <segue destination="y2v-J0-QSC" kind="relationship" relationship="viewControllers" id="IlN-VU-hdG"/>
                         <segue destination="Gg6-Ua-FOG" kind="relationship" relationship="viewControllers" id="NDL-dg-ETf"/>
                         <segue destination="yji-Dg-PQP" kind="relationship" relationship="viewControllers" id="DHq-UV-yZm"/>
-                        <segue destination="BbX-EQ-tTy" kind="relationship" relationship="viewControllers" id="Ild-La-yA3"/>
+                        <segue destination="qqc-9J-Tgq" kind="relationship" relationship="viewControllers" id="K5n-h0-Zur"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zpH-Nv-1hn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -153,89 +153,54 @@
             <point key="canvasLocation" x="1097.5" y="874.5"/>
         </scene>
         <!--设置-->
-        <scene sceneID="1nW-Xn-I6G">
+        <scene sceneID="jHQ-oO-kQe">
             <objects>
-                <tableViewController id="pzm-K8-kt7" customClass="CPSettingController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="apA-eK-BYU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="HYN-Nf-Qip">
-                                <rect key="frame" x="0.0" y="114" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HYN-Nf-Qip" id="iAr-Cm-rWf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
-                                </tableViewCellContentView>
-                                <animations/>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="qY8-3M-WZz">
-                                <rect key="frame" x="0.0" y="158" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qY8-3M-WZz" id="3La-NR-9qb">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
-                                </tableViewCellContentView>
-                                <animations/>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bmA-jQ-A8D">
-                                <rect key="frame" x="0.0" y="202" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bmA-jQ-A8D" id="Ine-32-Rc1">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
-                                </tableViewCellContentView>
-                                <animations/>
-                            </tableViewCell>
-                        </prototypes>
-                        <sections/>
-                        <connections>
-                            <outlet property="dataSource" destination="pzm-K8-kt7" id="qUC-2j-aXo"/>
-                            <outlet property="delegate" destination="pzm-K8-kt7" id="jmr-QQ-84q"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="设置" id="pC5-Kg-S5c">
-                        <barButtonItem key="rightBarButtonItem" title="常见问题" id="LG7-yz-dLb"/>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7S6-Jr-Li1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="304.5" y="1451.5"/>
-        </scene>
-        <!--我的-->
-        <scene sceneID="Zq9-sT-mTj">
-            <objects>
-                <viewController id="BbX-EQ-tTy" customClass="CPProfileViewController" sceneMemberID="viewController">
+                <viewController id="Bi3-zU-O30" customClass="CPSettingController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xd8-Kl-sFh"/>
-                        <viewControllerLayoutGuide type="bottom" id="E0e-sd-lXS"/>
+                        <viewControllerLayoutGuide type="top" id="mSu-Ot-wDX"/>
+                        <viewControllerLayoutGuide type="bottom" id="txz-ei-pb2"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ta5-te-3ja">
+                    <view key="view" contentMode="scaleToFill" id="6oQ-0h-ipz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Cec-3G-scY"/>
-                    <navigationItem key="navigationItem" title="我的" id="5gk-R6-XHF">
-                        <barButtonItem key="leftBarButtonItem" image="Mylottery_FBMM_Barbutton" id="EmP-22-cv2"/>
-                        <barButtonItem key="rightBarButtonItem" title="设置" id="Yk8-7X-nae">
+                    <navigationItem key="navigationItem" title="设置" id="EDi-pM-7mT"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8HT-Jv-z7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322.5" y="1425.5"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="gto-FP-pg3">
+            <objects>
+                <viewController id="qqc-9J-Tgq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="by7-iC-saq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qpH-e9-loI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8aH-Kk-oK5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="SON-CC-SGc"/>
+                    <navigationItem key="navigationItem" title="我的" id="bTW-md-PKA">
+                        <barButtonItem key="leftBarButtonItem" image="Mylottery_FBMM_Barbutton" id="ynk-fF-r61"/>
+                        <barButtonItem key="rightBarButtonItem" image="Circle_PersonalPage_Setting" id="TE1-xT-qPv">
                             <connections>
-                                <segue destination="pzm-K8-kt7" kind="push" id="kDE-RB-unw"/>
+                                <segue destination="Bi3-zU-O30" kind="push" id="DMW-4v-QYS"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jkf-EO-Aur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hba-EC-S6V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718.5" y="1525.5"/>
+            <point key="canvasLocation" x="802.5" y="1436.5"/>
         </scene>
         <!--开奖信息-->
         <scene sceneID="m5J-gk-0Yl">
@@ -265,16 +230,42 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="Pt0-zF-JLu"/>
                     <navigationItem key="navigationItem" title="开奖信息" id="vPo-b9-mdS">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="D9e-pd-5b6"/>
+                        <barButtonItem key="rightBarButtonItem" title="开奖信息" id="D9e-pd-5b6">
+                            <connections>
+                                <segue destination="b6E-nR-xSa" kind="push" id="Sld-xv-WO1"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUM-yn-23h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1344.5" y="1525.5"/>
+            <point key="canvasLocation" x="1332.5" y="1320.5"/>
+        </scene>
+        <!--开奖推送设置-->
+        <scene sceneID="Sfu-sl-L5J">
+            <objects>
+                <viewController id="b6E-nR-xSa" customClass="CPAwardSetting" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="01k-GK-mcb"/>
+                        <viewControllerLayoutGuide type="bottom" id="XMN-tj-php"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hv4-CB-S2X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="开奖推送设置" id="b2y-46-3Fw"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cQ2-bQ-2FP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386.5" y="1054.5"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Circle_PersonalPage_Setting" width="22" height="22"/>
         <image name="Mylottery_FBMM_Barbutton" width="22" height="19"/>
         <image name="hall_activity_icon1" width="44" height="44"/>
     </resources>

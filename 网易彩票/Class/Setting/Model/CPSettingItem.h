@@ -23,6 +23,8 @@ typedef enum {
 @property (nonatomic,copy) NSString * title;
 //cell的样式
 @property (nonatomic,assign) CPSettingItemType type;
+//想要显示的下一个控制器
+@property (nonatomic,copy) Class showVcClass;
 //点击cell要做的事情
 @property (nonatomic,copy) void (^operation)();
 
