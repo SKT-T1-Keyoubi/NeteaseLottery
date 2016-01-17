@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CPSettingArrow.h"
+#import "CPSettingSwitch.h"
+#import "CPSettingGroup.h"
 
 @interface CPBaseSettingController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 {
     NSMutableArray * _allGroups;//所有的item模型
-    UITableView * _tableView;
 }
-
+@property (nonatomic,weak,readonly) UITableView * tableView;
 @end

@@ -74,9 +74,13 @@
         return;
     }
     //跳转到下一个控制器
-    if (item.showVcClass) {
-        UIViewController * vc = [[item.showVcClass alloc]init];
-        [self.navigationController pushViewController:vc animated:YES];
+    if ([item isKindOfClass:[CPSettingArrow class]]) {
+        CPSettingArrow * arrowItem = (CPSettingArrow *)item;
+        if (arrowItem.showVcClass) {
+            UIViewController * vc = [[arrowItem.showVcClass alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+ 
     }
 }
 

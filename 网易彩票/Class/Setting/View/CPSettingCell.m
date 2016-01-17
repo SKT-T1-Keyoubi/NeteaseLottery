@@ -8,6 +8,8 @@
 
 #import "CPSettingCell.h"
 #import "CPSettingItem.h"
+#import "CPSettingArrow.h"
+#import "CPSettingSwitch.h"
 @interface CPSettingCell()
 
 {
@@ -41,20 +43,10 @@
     
     self.imageView.image = [UIImage imageNamed:item.icon];
     self.textLabel.text = item.title;
-    if (item.type == CPSettingItemTypeArrow) {
-        //没有才创建，优化性能！
-        if (Arrow == nil) {
-            Arrow = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"CellArrow"]];
-        }
-        self.selectionStyle = UITableViewCellSelectionStyleBlue;
-        self.accessoryView = Arrow;
-    }else if (item.type == CPSettingItemTypeSwitch){
-        //禁止表格框可点击
-        if (Switch == nil) {
-            Switch = [[UISwitch alloc]init];
-        }
-        self.selectionStyle = UITableViewCellSelectionStyleNone;
-        self.accessoryView = Switch;
+    if ([item isKindOfClass:[CPSettingArrow class]]) {
+        [self setUpArrow];
+    }else if ([item isKindOfClass:[CPSettingSwitch class]]){
+        [self setUpSwitch];
     }else{
         /**
          *  注意：这里的清空是因为cell是循环利用的！
@@ -64,5 +56,23 @@
         
     }
     _item = item;
+}
+#pragma mark - 设置右边的箭头
+-(void) setUpArrow{
+    //没有才创建，优化性能！
+    if (Arrow == nil) {
+        Arrow = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"CellArrow"]];
+    }
+    self.selectionStyle = UITableViewCellSelectionStyleBlue;
+    self.accessoryView = Arrow;
+}
+#pragma mark - 设置右边的switch开关
+-(void) setUpSwitch{
+    //禁止表格框可点击
+    if (Switch == nil) {
+        Switch = [[UISwitch alloc]init];
+    }
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
+    self.accessoryView = Switch;
 }
 @end

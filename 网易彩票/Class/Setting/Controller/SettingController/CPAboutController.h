@@ -10,5 +10,5 @@
 #import "CPSettingCell.h"
 #import "CPSettingGroup.h"
 #import "CPSettingItem.h"
-@interface CPAboutController : UIViewController<UITableViewDataSource,UITextFieldDelegate>
+@interface CPAboutController : CPBaseSettingController
 @end

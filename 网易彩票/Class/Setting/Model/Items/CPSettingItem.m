@@ -10,11 +10,10 @@
 
 @implementation CPSettingItem
 
-+(id) itemWithIcon:(NSString *)icon title:(NSString *)title type:(CPSettingItemType)type{
++(id) itemWithIcon:(NSString *)icon title:(NSString *)title{
     CPSettingItem * item = [[self alloc]init];
     item.icon = icon;
     item.title = title;
-    item.type = type;
     return item;
     
 }

@@ -22,12 +22,12 @@
 
 #pragma mark - 添加一组Section
 -(void) addOneSectionItems{
-    CPSettingItem * wxFriends = [CPSettingItem itemWithIcon:@"" title:@"微信朋友圈" type:CPSettingItemTypeArrow];
-    CPSettingItem * wx = [CPSettingItem itemWithIcon:@"" title:@"微信" type:CPSettingItemTypeArrow];
-    CPSettingItem * qqSpace = [CPSettingItem itemWithIcon:@"" title:@"QQ空间" type:CPSettingItemTypeArrow];
-    CPSettingItem * qqFriends = [CPSettingItem itemWithIcon:@"" title:@"QQ好友" type:CPSettingItemTypeArrow];
-    CPSettingItem * weibo = [CPSettingItem itemWithIcon:@"" title:@"新浪微博" type:CPSettingItemTypeArrow];
-    CPSettingItem * message = [CPSettingItem itemWithIcon:@"" title:@"短信" type:CPSettingItemTypeArrow];
+    CPSettingArrow * wxFriends = [CPSettingArrow itemWithIcon:@"" title:@"微信朋友圈" ];
+    CPSettingArrow * wx = [CPSettingArrow itemWithIcon:@"" title:@"微信" ];
+    CPSettingArrow * qqSpace = [CPSettingArrow itemWithIcon:@"" title:@"QQ空间" ];
+    CPSettingArrow * qqFriends = [CPSettingArrow itemWithIcon:@"" title:@"QQ好友" ];
+    CPSettingArrow * weibo = [CPSettingArrow itemWithIcon:@"" title:@"新浪微博" ];
+    CPSettingArrow * message = [CPSettingArrow itemWithIcon:@"" title:@"短信" ];
     CPSettingGroup * group = [[CPSettingGroup alloc]init];
     group.items = @[wxFriends,wx,qqSpace,qqFriends,weibo,message];
     [_allGroups addObject:group];
